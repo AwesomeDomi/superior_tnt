@@ -1,0 +1,12 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2023-06-22 22:43:59 +0200",
+      "minecraft:snowy_plains": "2023-06-21 19:36:30 +0200",
+      "minecraft:dripstone_caves": "2023-09-05 19:45:49 +0200",
+      "minecraft:plains": "2023-06-21 19:36:38 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

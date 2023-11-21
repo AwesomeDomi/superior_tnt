@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "superior_tnt:blocks/wip",
+    "up": "superior_tnt:blocks/wip",
+    "north": "superior_tnt:blocks/wip",
+    "east": "superior_tnt:blocks/wip",
+    "south": "superior_tnt:blocks/wip",
+    "west": "superior_tnt:blocks/wip",
+    "particle": "superior_tnt:blocks/wip"
+  },
+  "render_type": "solid"
+}

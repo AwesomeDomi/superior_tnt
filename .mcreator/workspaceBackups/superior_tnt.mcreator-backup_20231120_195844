@@ -1,0 +1,1317 @@
+{
+  "mod_elements": [
+    {
+      "name": "TranscendentTNT",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transcendent_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/superior_tnt/models/item/transcendent_tnt.json",
+          "src/main/resources/assets/superior_tnt/models/block/transcendent_tnt.json",
+          "src/main/resources/assets/superior_tnt/blockstates/transcendent_tnt.json",
+          "src/main/java/net/mcreator/superiortnt/block/TranscendentTNTBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedGoodTNT",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_good_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/entity/PrimedGoodTNTEntity.java",
+          "src/main/java/net/mcreator/superiortnt/client/renderer/PrimedGoodTNTRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SuperiorTNTTier2",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superior_tnt_tier_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SuperiorTNTTier1",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superior_tnt_tier_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SuperiorTNTTier3",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superior_tnt_tier_3",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SuperiorTNTTier4",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superior_tnt_tier_4",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SuperiorTNTTier5",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superior_tnt_tier_5",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SuperiorTNTTier6",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superior_tnt_tier_6",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Configurator",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "configurator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/superior_tnt/models/item/configurator.json",
+          "src/main/java/net/mcreator/superiortnt/item/ConfiguratorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ConfiguratorRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "configurator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/superior_tnt/recipes/configurator_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SuperiorEssence",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superior_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/superior_tnt/models/item/superior_essence.json",
+          "src/main/java/net/mcreator/superiortnt/item/SuperiorEssenceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SuperiorTNTMisc",
+      "type": "tab",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superior_tnt_misc",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SuperiorOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superior_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/world/features/ores/SuperiorOreFeature.java",
+          "src/main/resources/assets/superior_tnt/models/block/superior_ore.json",
+          "src/main/resources/assets/superior_tnt/blockstates/superior_ore.json",
+          "src/main/resources/assets/superior_tnt/models/item/superior_ore.json",
+          "src/main/java/net/mcreator/superiortnt/block/SuperiorOreBlock.java",
+          "src/main/resources/data/superior_tnt/forge/biome_modifier/superior_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "GoodTNT",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "good_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/superior_tnt/blockstates/good_tnt.json",
+          "src/main/resources/assets/superior_tnt/models/block/good_tnt.json",
+          "src/main/java/net/mcreator/superiortnt/block/entity/GoodTNTBlockEntity.java",
+          "src/main/resources/assets/superior_tnt/models/item/good_tnt.json",
+          "src/main/java/net/mcreator/superiortnt/block/GoodTNTBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Terminatep",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminatep",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/TerminatepProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Terminate",
+      "type": "command",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/command/TerminateCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Pausep",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pausep",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/PausepProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pause",
+      "type": "command",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pause",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/command/PauseCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "MainSummon",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "main_summon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/MainSummonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MainSummon2",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "main_summon_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/MainSummon2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RoundedCylinder",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rounded_cylinder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/RoundedCylinderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExplosionEntity",
+      "type": "livingentity",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosion_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/entity/ExplosionEntityEntity.java",
+          "src/main/java/net/mcreator/superiortnt/client/renderer/ExplosionEntityRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "GoodTNTMain",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "good_tnt_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/GoodTNTMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MainTick",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "main_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/MainTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfoBookGUI",
+      "type": "gui",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "info_book_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/client/gui/InfoBookGUIScreen.java",
+          "src/main/java/net/mcreator/superiortnt/world/inventory/InfoBookGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "HeightCheck",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "height_check",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/HeightCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TranscendentTNTMain",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transcendent_tnt_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/TranscendentTNTMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PrimedTranscendentTNT",
+      "type": "livingentity",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_transcendent_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/entity/PrimedTranscendentTNTEntity.java",
+          "src/main/java/net/mcreator/superiortnt/client/renderer/PrimedTranscendentTNTRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "EfficientRoundedCylinder",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "efficient_rounded_cylinder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/EfficientRoundedCylinderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChunkRoundedCylinder",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chunk_rounded_cylinder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/ChunkRoundedCylinderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreatTNT",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "great_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/block/entity/GreatTNTBlockEntity.java",
+          "src/main/java/net/mcreator/superiortnt/block/GreatTNTBlock.java",
+          "src/main/resources/assets/superior_tnt/blockstates/great_tnt.json",
+          "src/main/resources/assets/superior_tnt/models/block/great_tnt.json",
+          "src/main/resources/assets/superior_tnt/models/item/great_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "AmazingTNT",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "amazing_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/superior_tnt/models/item/amazing_tnt.json",
+          "src/main/java/net/mcreator/superiortnt/block/AmazingTNTBlock.java",
+          "src/main/resources/assets/superior_tnt/blockstates/amazing_tnt.json",
+          "src/main/java/net/mcreator/superiortnt/block/entity/AmazingTNTBlockEntity.java",
+          "src/main/resources/assets/superior_tnt/models/block/amazing_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "IncredibleTNT",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "incredible_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/block/entity/IncredibleTNTBlockEntity.java",
+          "src/main/resources/assets/superior_tnt/models/block/incredible_tnt.json",
+          "src/main/java/net/mcreator/superiortnt/block/IncredibleTNTBlock.java",
+          "src/main/resources/assets/superior_tnt/models/item/incredible_tnt.json",
+          "src/main/resources/assets/superior_tnt/blockstates/incredible_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "ExceptionalTNT",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "exceptional_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/superior_tnt/blockstates/exceptional_tnt.json",
+          "src/main/java/net/mcreator/superiortnt/block/entity/ExceptionalTNTBlockEntity.java",
+          "src/main/java/net/mcreator/superiortnt/block/ExceptionalTNTBlock.java",
+          "src/main/resources/assets/superior_tnt/models/item/exceptional_tnt.json",
+          "src/main/resources/assets/superior_tnt/models/block/exceptional_tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedGreatTNT",
+      "type": "livingentity",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_great_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/entity/PrimedGreatTNTEntity.java",
+          "src/main/java/net/mcreator/superiortnt/client/renderer/PrimedGreatTNTRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedAmazingTNT",
+      "type": "livingentity",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_amazing_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/client/renderer/PrimedAmazingTNTRenderer.java",
+          "src/main/java/net/mcreator/superiortnt/entity/PrimedAmazingTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedExceptionalTNT",
+      "type": "livingentity",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_exceptional_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/client/renderer/PrimedExceptionalTNTRenderer.java",
+          "src/main/java/net/mcreator/superiortnt/entity/PrimedExceptionalTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedIncredibleTNT",
+      "type": "livingentity",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_incredible_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/client/renderer/PrimedIncredibleTNTRenderer.java",
+          "src/main/java/net/mcreator/superiortnt/entity/PrimedIncredibleTNTEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "GreatTNTMain",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_tnt_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/GreatTNTMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmazingTNTMain",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amazing_tnt_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/AmazingTNTMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IncredibleTNTMain",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incredible_tnt_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/IncredibleTNTMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExceptionalTNTMain",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exceptional_tnt_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/ExceptionalTNTMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TNTX10Main",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tntx_10_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/procedures/TNTX10MainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TNTX10",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tntx_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/superior_tnt/models/item/tntx_10.json",
+          "src/main/resources/assets/superior_tnt/blockstates/tntx_10.json",
+          "src/main/resources/assets/superior_tnt/models/block/tntx_10.json",
+          "src/main/java/net/mcreator/superiortnt/block/TNTX10Block.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedTNTX10",
+      "type": "livingentity",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_tntx_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/client/renderer/PrimedTNTX10Renderer.java",
+          "src/main/java/net/mcreator/superiortnt/entity/PrimedTNTX10Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "SuperiorTNTEventHandler",
+      "type": "code",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "superior_tnt_event_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/SuperiorTNTEventHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "GradualRaycast",
+      "type": "code",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gradual_raycast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/GradualRaycast.java"
+        ]
+      }
+    },
+    {
+      "name": "RaycastEntity",
+      "type": "livingentity",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "raycast_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/entity/RaycastEntityEntity.java",
+          "src/main/java/net/mcreator/superiortnt/client/renderer/RaycastEntityRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TNTX100",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tntx_100",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/superior_tnt/models/item/tntx_100.json",
+          "src/main/java/net/mcreator/superiortnt/block/TNTX100Block.java",
+          "src/main/resources/assets/superior_tnt/blockstates/tntx_100.json",
+          "src/main/resources/assets/superior_tnt/models/block/tntx_100.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedTNTX100",
+      "type": "livingentity",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_tntx_100",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/entity/PrimedTNTX100Entity.java",
+          "src/main/java/net/mcreator/superiortnt/client/renderer/PrimedTNTX100Renderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TNTX1000",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tntx_1000",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/block/TNTX1000Block.java",
+          "src/main/resources/assets/superior_tnt/models/block/tntx_1000.json",
+          "src/main/resources/assets/superior_tnt/blockstates/tntx_1000.json",
+          "src/main/resources/assets/superior_tnt/models/item/tntx_1000.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedTNTX1000",
+      "type": "livingentity",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "primed_tntx_1000",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/client/renderer/PrimedTNTX1000Renderer.java",
+          "src/main/java/net/mcreator/superiortnt/entity/PrimedTNTX1000Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "TNTX10000",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tntx_10000",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/superior_tnt/models/item/tntx_10000.json",
+          "src/main/resources/assets/superior_tnt/blockstates/tntx_10000.json",
+          "src/main/resources/assets/superior_tnt/models/block/tntx_10000.json",
+          "src/main/java/net/mcreator/superiortnt/block/TNTX10000Block.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimedTNTX10000",
+      "type": "livingentity",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_tntx_10000",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/client/renderer/PrimedTNTX10000Renderer.java",
+          "src/main/java/net/mcreator/superiortnt/entity/PrimedTNTX10000Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "TNTX100000",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tntx_100000",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/superior_tnt/models/block/tntx_100000.json",
+          "src/main/resources/assets/superior_tnt/models/item/tntx_100000.json",
+          "src/main/java/net/mcreator/superiortnt/block/TNTX100000Block.java",
+          "src/main/resources/assets/superior_tnt/blockstates/tntx_100000.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedTNTX100000",
+      "type": "livingentity",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_tntx_100000",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/entity/PrimedTNTX100000Entity.java",
+          "src/main/java/net/mcreator/superiortnt/client/renderer/PrimedTNTX100000Renderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TNTX1000000",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tntx_1000000",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/superior_tnt/models/item/tntx_1000000.json",
+          "src/main/java/net/mcreator/superiortnt/block/TNTX1000000Block.java",
+          "src/main/resources/assets/superior_tnt/blockstates/tntx_1000000.json",
+          "src/main/resources/assets/superior_tnt/models/block/tntx_1000000.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimedTNTX1000000",
+      "type": "livingentity",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primed_tntx_1000000",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/client/renderer/PrimedTNTX1000000Renderer.java",
+          "src/main/java/net/mcreator/superiortnt/entity/PrimedTNTX1000000Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Transcendent",
+      "type": "livingentity",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transcendent",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/entity/TranscendentEntity.java",
+          "src/main/java/net/mcreator/superiortnt/client/renderer/TranscendentRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "NukeProjectile",
+      "type": "livingentity",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nuke_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/client/renderer/NukeProjectileRenderer.java",
+          "src/main/java/net/mcreator/superiortnt/entity/NukeProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "block",
+      "sortid": 71,
+      "compiles": false,
+      "locked_code": true,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/superior_tnt/models/block/test.json",
+          "src/main/java/net/mcreator/superiortnt/block/TestBlock.java",
+          "src/main/resources/assets/superior_tnt/models/item/test.json",
+          "src/main/resources/assets/superior_tnt/blockstates/test.json"
+        ]
+      }
+    },
+    {
+      "name": "SuperiorTNTPacketHandler",
+      "type": "code",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "superior_tnt_packet_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/SuperiorTNTPacketHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "PersistentDataModifyPacket",
+      "type": "code",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "persistent_data_modify_packet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/PersistentDataModifyPacket.java"
+        ]
+      }
+    },
+    {
+      "name": "ClientPacketHandler",
+      "type": "code",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "client_packet_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superiortnt/ClientPacketHandler.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "paused",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "efficientPaused",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "securesummon",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "Radius",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.superior_tnt.tntx_100": "TNTx100",
+      "gui.superior_tnt.info_book_gui.button_back": "Back",
+      "entity.superior_tnt.nuke_projectile": "Nuke Projectile",
+      "entity.superior_tnt.transcendent": "Explosion Entity",
+      "item.superior_tnt.superior_essence": "Superior Essence",
+      "gui.superior_tnt.info_book_gui.button_next": "Next",
+      "itemGroup.tabsuperior_tnt_misc": "Superior TNT Misc",
+      "block.superior_tnt.tntx_10000": "TNTx10,000",
+      "entity.superior_tnt.primed_great_tnt": "Primed Great TNT",
+      "block.superior_tnt.exceptional_tnt": "Exceptional TNT",
+      "block.superior_tnt.tntx_10": "TNTx10",
+      "block.superior_tnt.great_tnt": "Great TNT",
+      "entity.superior_tnt.primed_tntx_1000000": "Primed TNTx1000000",
+      "item.superior_tnt.configurator": "Configurator",
+      "entity.superior_tnt.primed_good_tnt": "Primed Good TNT",
+      "entity.superior_tnt.primed_amazing_tnt": "Primed Amazing TNT",
+      "entity.superior_tnt.primed_tntx_100000": "Primed TNTx100000",
+      "itemGroup.tabsuperior_tnt_tier_5": "Superior TNT Tier 5",
+      "itemGroup.tabsuperior_tnt_tier_6": "Superior TNT Tier 6",
+      "entity.superior_tnt.primed_tntx_10000": "Primed TNTx10000",
+      "block.superior_tnt.test": "TNTx10",
+      "itemGroup.tabsuperior_tnt_tier_3": "Superior TNT Tier 3",
+      "itemGroup.tabsuperior_tnt_tier_4": "Superior TNT Tier 4",
+      "itemGroup.tabsuperior_tnt_tier_1": "Superior TNT Tier 1",
+      "block.superior_tnt.incredible_tnt": "Incredible TNT",
+      "itemGroup.tabsuperior_tnt_tier_2": "Superior TNT Tier 2",
+      "entity.superior_tnt.primed_tntx_100": "Primed TNTx100",
+      "entity.superior_tnt.explosion_entity": "Explosion Entity",
+      "entity.superior_tnt.primed_tntx_10": "Primed TNTx10",
+      "entity.superior_tnt.primed_exceptional_tnt": "Primed Exceptional TNT",
+      "entity.superior_tnt.raycast_entity": "Raycast Entity",
+      "block.superior_tnt.tntx_1000": "TNTx1,000",
+      "block.superior_tnt.tntx_100000": "TNTx100,000",
+      "entity.superior_tnt.primed_transcendent_tnt": "Primed Transcendent TNT",
+      "entity.superior_tnt.primed_tntx_1000": "Primed TNTx1000",
+      "block.superior_tnt.tntx_1000000": "TNTx1,000,000",
+      "block.superior_tnt.transcendent_tnt": "Transcendent TNT",
+      "block.superior_tnt.amazing_tnt": "Amazing TNT",
+      "block.superior_tnt.superior_ore": "Superior Ore",
+      "entity.superior_tnt.primed_incredible_tnt": "Primed Incredible TNT",
+      "block.superior_tnt.good_tnt": "Good TNT"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "superior_tnt",
+    "modName": "Superior TNT",
+    "version": "1.0",
+    "author": "Awesome Domi, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.superiortnt",
+    "lockBaseModFiles": true
+  },
+  "mcreatorVersion": 202300223515
+}

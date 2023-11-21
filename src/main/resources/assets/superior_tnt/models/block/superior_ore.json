@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "superior_tnt:blocks/superior_ore",
+    "up": "superior_tnt:blocks/superior_ore",
+    "north": "superior_tnt:blocks/superior_ore",
+    "east": "superior_tnt:blocks/superior_ore",
+    "south": "superior_tnt:blocks/superior_ore",
+    "west": "superior_tnt:blocks/superior_ore",
+    "particle": "superior_tnt:blocks/superior_ore"
+  },
+  "render_type": "solid"
+}

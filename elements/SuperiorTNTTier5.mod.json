@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Superior TNT Tier 5",
+    "icon": {
+      "value": "CUSTOM:ExceptionalTNT"
+    },
+    "showSearch": false
+  }
+}

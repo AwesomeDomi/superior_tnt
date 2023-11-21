@@ -1,0 +1,16 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-04-25 16:03:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_plains": "2023-04-25 16:26:06 +0200",
+      "minecraft:snowy_taiga": "2023-04-05 19:17:48 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "superior_tnt:blocks/exceptionaltntbottom",
+    "up": "superior_tnt:blocks/exceptionaltnttop",
+    "north": "superior_tnt:blocks/exceptionaltntside",
+    "east": "superior_tnt:blocks/exceptionaltntside",
+    "south": "superior_tnt:blocks/exceptionaltntside",
+    "west": "superior_tnt:blocks/exceptionaltntside",
+    "particle": "superior_tnt:blocks/exceptionaltntbottom"
+  },
+  "render_type": "solid"
+}

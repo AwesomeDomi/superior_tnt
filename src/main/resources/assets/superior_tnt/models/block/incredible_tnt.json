@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "superior_tnt:blocks/incredibletntbottom",
+    "up": "superior_tnt:blocks/incredibletnttop",
+    "north": "superior_tnt:blocks/incredibletntside",
+    "east": "superior_tnt:blocks/incredibletntside",
+    "south": "superior_tnt:blocks/incredibletntside",
+    "west": "superior_tnt:blocks/incredibletntside",
+    "particle": "superior_tnt:blocks/incredibletntbottom"
+  },
+  "render_type": "solid"
+}

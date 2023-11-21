@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "superior_tnt:blocks/goodtntbottom",
+    "up": "superior_tnt:blocks/goodtnttop",
+    "north": "superior_tnt:blocks/goodtntside",
+    "east": "superior_tnt:blocks/goodtntside",
+    "south": "superior_tnt:blocks/goodtntside",
+    "west": "superior_tnt:blocks/goodtntside",
+    "particle": "superior_tnt:blocks/goodtntbottom"
+  },
+  "render_type": "solid"
+}
